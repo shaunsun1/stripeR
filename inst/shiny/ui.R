@@ -5,7 +5,7 @@ fluidPage(
 
   titlePanel("StripeR Demo"),
 
-  # A Stripe Form
+  ## A Stripe Form
   sidebarLayout(
     sidebarPanel(
       stripeRShinyUI("stripe1")
